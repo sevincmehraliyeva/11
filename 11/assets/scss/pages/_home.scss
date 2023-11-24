@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+
+    ul{
+        gap: 20px;
+    }
+    }
+
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+#ourBestBlogger{
+    background-image: url(/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 20px;
+    padding-top: 20px;
+  
+  
+    h1{
+    font-size: 50px;
+    font-weight: 800;
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+    
+}
